@@ -1,0 +1,11 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporarios do Office (abertos no PowerPoint/Word)
+~$*
+
+# Arquivos temporarios em geral
+*.tmp
+*.bak
