@@ -1,6 +1,10 @@
 # Business Model Canvas · 1. Segmento de Mercado
 
-Este bloco define quem compra o AcquaScan, quem o usa e quem sente o problema. Os demais blocos do canvas devem ser coerentes com ele.
+## Introdução
+
+O AcquaScan é um sistema de monitoramento de rios que mede o nível da água com sensores de baixo custo e comunica o risco de transbordamento em porcentagem, cor e texto, com tempo estimado, por meio de um aplicativo. Este documento descreve o primeiro bloco do Business Model Canvas, o **Segmento de Mercado**: para quem o AcquaScan cria valor.
+
+Ao longo do texto são apresentados quem compra a solução (Defesas Civis, Prefeituras e empresas que dependem de rios), quem a utiliza no dia a dia (moradores, pessoas com rotina perto de rios e equipes de Defesa Civil), o perfil de cada grupo (agrupamento, localização, necessidades e comportamentos), os segmentos fora do foco, a abrangência geográfica e as hipóteses que ainda precisam ser validadas. Os demais blocos do canvas devem ser coerentes com o que está descrito aqui.
 
 **Legenda das evidências:** **Verificado** (fonte pública em Referências) · **Vivência** (observação dos integrantes, moradores de Petrópolis, RJ, que vivenciaram enchentes) · **Pesquisa** (levantamento dos integrantes, fontes a anexar) · **Hipótese** (a validar, ver seção 7).
 
@@ -68,10 +72,6 @@ O usuário final não paga: informação de segurança em enchentes deve ser gra
 ### 3.3 Terciário: turismo de natureza em rio (hipótese)
 
 Pousadas, cachoeiras, parques e operadores de aventura. A dor é a segurança do visitante diante de cheias repentinas. Compradores dispersos e de menor poder de compra.
-
-### 3.4 Parceiros e financiadores (não compram)
-
-Comitê de bacia hidrográfica (dados regionais), universidades (validação técnica), financiadores de impacto (custear sensores em comunidades sem orçamento) e associações de moradores (acesso aos moradores).
 
 ---
 
