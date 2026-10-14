@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O AcquaScan é um sistema de monitoramento de rios que mede o nível da água com sensores de baixo custo e comunica o risco de transbordamento em porcentagem, cor e texto, com tempo estimado, por meio de um aplicativo. Este documento descreve o segundo bloco do Business Model Canvas, as **Atividades-Chave**: quais ações, processos operacionais e frentes técnicas são fundamentais para que o modelo de negócio funcione e entregue sua proposta de valor com alta confiabilidade.
+O AquaScan é um sistema de monitoramento de rios que mede o nível da água com sensores de baixo custo e comunica o risco de transbordamento em porcentagem, cor e texto, com tempo estimado, por meio de um aplicativo. Este documento descreve o segundo bloco do Business Model Canvas, as **Atividades-Chave**: quais ações, processos operacionais e frentes técnicas são fundamentais para que o modelo de negócio funcione e entregue sua proposta de valor com alta confiabilidade.
 
 Ao longo do texto são detalhadas as frentes de engenharia de software e arquitetura de nuvem, a operação de hardware e montagem de dispositivos IoT em campo, a análise de dados hidrológicos e gestão de riscos em conjunto com a Defesa Civil, as estratégias de engajamento comunitário e suporte, além das hipóteses que ainda precisam ser validadas. Os demais blocos do canvas devem ser coerentes com o que está descrito aqui.
 
