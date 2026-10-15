@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O AcquaScan é um sistema de monitoramento de rios que mede o nível da água com sensores de baixo custo, instalados em conjunto com o cliente, e transforma as leituras em métricas calculadas: nível, tendência (taxas de subida e de descida), tempo estimado até o nível crítico, vazão, volume, índice de risco e qualidade dos dados. O aplicativo mostra as métricas principais de cada rio à população, com o risco em porcentagem, cor e texto, e reserva gráficos e histórico de eventos para quem abre um rio específico. Este documento analisa as soluções que já atendem, total ou parcialmente, ao mesmo problema, com o objetivo de posicionar o AcquaScan com honestidade e transformar a análise em decisão estratégica.
+O AcquaScan é um sistema de monitoramento de rios que mede o nível da água com sensores de baixo custo, instalados em conjunto com o cliente, e transforma as leituras em métricas calculadas: nível, tendência (taxas de subida e de descida), tempo estimado até o nível crítico, índice de risco e qualidade dos dados (vazão e volume apenas onde houver equipamento adequado). O aplicativo mostra as métricas principais de cada rio à população, com o risco em porcentagem, cor e texto, e reserva gráficos e histórico de eventos para quem abre um rio específico. O mapa reúne os rios monitorados e, com contrato da Defesa Civil, os pontos de apoio do órgão, com telefone, capacidade máxima e rota até o local. Este documento analisa as soluções que já atendem, total ou parcialmente, ao mesmo problema, com o objetivo de posicionar o AcquaScan com honestidade e transformar a análise em decisão estratégica.
 
 Ao longo do texto são apresentados os critérios de comparação, os concorrentes diretos e indiretos, uma matriz comparativa, os diferenciais que o AcquaScan pretende defender e as hipóteses a validar. Os demais blocos do canvas, em especial a Proposta de Valor, devem ser coerentes com este documento.
 
@@ -21,11 +21,12 @@ Ao longo do texto são apresentados os critérios de comparação, os concorrent
 | E-Noé (USP) | Direto | Municípios e Defesa Civil | Venda por conjunto, cerca de R$ 15 mil |
 | Ih, Alagou (Olinda, PE) | Direto | Defesa Civil e população de Olinda | Sistema municipal; preço não divulgado |
 | Radar de nível de Joinville (SC) | Direto (solução profissional) | Defesa Civil e universidade | Cerca de R$ 138 mil |
+| Google FloodHub (alertas de cheia na Busca e no Maps) | Direto (informação ao morador) | Público geral | Gratuito |
 | Previsão do tempo (INMET e aplicativos) | Indireto | Público geral | Em geral gratuito (hipótese) |
 | Navegação e trânsito (Waze, Google Maps) | Indireto | Público geral | Gratuito |
 | Notícias locais | Indireto | Público geral | Gratuito ou assinatura |
 
-O AcquaScan disputa **dois mercados ao mesmo tempo**: o de compra pública (Defesa Civil e Prefeitura, onde competem E-Noé, Olinda e radares profissionais) e o de informação ao morador (onde competem INEA, Defesa Civil, ANA e canais de alerta). A Defesa Civil é, ao mesmo tempo, concorrente na comunicação, cliente principal e fonte oficial de orientação.
+O AcquaScan disputa **dois mercados ao mesmo tempo**: o de compra pública (Defesa Civil e Prefeitura, onde competem E-Noé, Olinda e radares profissionais) e o de informação ao morador (onde competem INEA, Defesa Civil, ANA, Google FloodHub e canais de alerta). A Defesa Civil é, ao mesmo tempo, concorrente na comunicação, cliente principal e fonte oficial de orientação.
 
 ---
 
@@ -121,6 +122,15 @@ Cada concorrente é analisado com os cinco critérios da seção 2. O concorrent
 - **Preço e acesso:** cerca de R$ 138 mil (**verificado**).
 - **Relação com o AcquaScan:** âncora de preço da solução profissional; mostra o espaço para uma alternativa de menor custo.
 
+### 3.8 Google FloodHub
+
+- **Solução:** alertas de cheia de rios e previsões, exibidos na Busca, no Maps e na plataforma FloodHub. Lançado no Brasil em novembro de 2022, em parceria com o Serviço Geológico do Brasil (SGB), com alertas em tempo real para mais de 60 locais no início (**verificado**). A cobertura atual não foi verificada.
+- **Público:** público geral.
+- **Pontos fortes:** alcance enorme, gratuito, integrado a aplicativos que o morador já usa e apoiado em dados do SGB.
+- **Pontos fracos:** limitado aos locais cobertos pelo modelo e pelas estações do SGB (cobertura em Petrópolis **não verificada**); o alerta aparece apenas quando há cheia ativa (**verificado**); não instala sensores nem atende ao município.
+- **Preço e acesso:** gratuito.
+- **Relação com o AcquaScan:** concorre na informação ao morador. O AcquaScan só se diferencia onde mede rios que a rede nacional não cobre, com porcentagem do transbordamento, cor e texto, tempo estimado e pontos de apoio (hipótese H8).
+
 ---
 
 ## 4. Concorrentes indiretos e substitutos
@@ -128,29 +138,34 @@ Cada concorrente é analisado com os cinco critérios da seção 2. O concorrent
 | | Solução | Pontos fortes | Pontos fracos | Preço e acesso |
 |---|---|---|---|---|
 | **Previsão do tempo** (INMET e aplicativos) | Previsão de chuva, avisos meteorológicos e acumulados | Conhecidos; úteis no planejamento | Previsão de chuva não é medição do nível de um rio | Em geral gratuito (**hipótese**) |
-| **Navegação e trânsito** (Waze, Google Maps) | Rotas e incidentes de trânsito | Conhecidos; fáceis de usar | Não confirmado que usem nível de rio; uma rota calculada não é automaticamente segura em emergência | Gratuito |
+| **Navegação e trânsito** (Waze, Google Maps) | Rotas e incidentes de trânsito. O Waze avisa quando a rota passa por área alagada, com dados enviados pela Defesa Civil em cidades parceiras (capitais de São Paulo e do Rio de Janeiro, em 2023), e permite bloqueios virtuais de vias, como em Curitiba, onde o aplicativo redireciona as rotas (**verificado**) | Base de usuários enorme; recalculam a rota; a Defesa Civil de outras cidades já os usa | Dependem do lançamento do alerta ou do bloqueio pelo órgão; não confirmado que usem a medição contínua de um rio; uma rota calculada não é automaticamente segura em emergência | Gratuito |
 | **Notícias locais** (por exemplo, Tribuna de Petrópolis) | Contexto e cobertura de ocorrências | Trazem o contexto local | Conteúdo editorial, não medição contínua | Gratuito ou assinatura |
 | **Observação direta e rede de vizinhos** | Moradores acompanham o rio e se avisam | Imediato e gratuito (**vivência**) | Sem dado objetivo; depende de alguém estar olhando | Gratuito |
 
 ---
 
+**Possibilidade de integração (hipótese H9).** Como a Defesa Civil já alimenta o Waze em outras cidades, o dado do AcquaScan pode servir de gatilho para esses alertas e bloqueios, em vez de o AcquaScan construir sozinho um sistema próprio de rotas.
+
+---
+
 ## 5. Matriz comparativa
 
-| Funcionalidade | AcquaScan | INEA | Defesa Civil | Hidroweb (ANA) | E-Noé |
-|---|---|---|---|---|---|
-| Nível do rio | Sensores próprios (em desenvolvimento) | Sim, em estações (**pesquisa**) | Usa dados de monitoramento | Sim (**verificado**) | Sim |
-| Tendência (taxa de subida e de descida) | Prevista | Não confirmado | Não confirmado | Não confirmado | Não confirmado |
-| Tempo estimado até o nível crítico | Previsto, por tendência | Não confirmado | Não | Não confirmado | Sim, por IA |
-| Risco em porcentagem do nível de transbordamento | Em desenvolvimento | Não confirmado | Não confirmado | Não confirmado | Não confirmado |
-| Risco em cor e texto (baixo, moderado, alto) | Em desenvolvimento | Estágios de situação (**pesquisa**) | Avisos em texto | Não confirmado | Não confirmado |
-| Vazão | Prevista; na maquete, em tubulação | Em parte das estações (**pesquisa**) | Não | Sim (**verificado**) | Não confirmado |
-| Gráficos e histórico de eventos por rio | Previstos | Consultar recursos do site | Não | Gráficos (**verificado**) | Não confirmado |
-| Qualidade do dado e diagnóstico do sensor | Previstos | Não confirmado | Não | Não confirmado | Não confirmado |
-| Sensor de baixo custo instalado com o cliente | Sim | Não (rede estadual) | Não | Não | Não confirmado |
-| Mapa com todos os rios e locais salvos | Previsto | Consultar recursos do site | Não | Não confirmado | Não confirmado |
-| Rota que considera o estado dos rios | Prevista | Não | Não | Não | Não confirmado |
-| Gratuito para o morador | Sim | Sim | Sim | Sim | Não confirmado |
-| Vendido a municípios | Sim | Não (serviço estadual) | Não (é o comprador) | Não | Sim |
+| Funcionalidade | AcquaScan | INEA | Defesa Civil | Hidroweb (ANA) | E-Noé | Google FloodHub e Waze |
+|---|---|---|---|---|---|---|
+| Nível do rio | Sensores próprios (em desenvolvimento) | Sim, em estações (**pesquisa**) | Usa dados de monitoramento | Sim (**verificado**) | Sim | FloodHub mostra níveis e alertas nos locais cobertos (**verificado**); Petrópolis não verificada |
+| Tendência (taxa de subida e de descida) | Prevista | Não confirmado | Não confirmado | Não confirmado | Não confirmado | Não confirmado |
+| Tempo estimado até o nível crítico | Previsto, por tendência | Não confirmado | Não | Não confirmado | Sim, por IA | Previsão de cheia no FloodHub (**verificado**); tempo por ponto não confirmado |
+| Risco em porcentagem do nível de transbordamento | Em desenvolvimento | Não confirmado | Não confirmado | Não confirmado | Não confirmado | Não confirmado |
+| Risco em cor e texto (baixo, moderado, alto) | Em desenvolvimento | Estágios de situação (**pesquisa**) | Avisos em texto | Não confirmado | Não confirmado | Alerta de risco na Busca e no Maps (**verificado**) |
+| Vazão | Prevista; na maquete, em tubulação | Em parte das estações (**pesquisa**) | Não | Sim (**verificado**) | Não confirmado | Não confirmado |
+| Gráficos e histórico de eventos por rio | Previstos | Consultar recursos do site | Não | Gráficos (**verificado**) | Não confirmado | Plataforma FloodHub; recursos não confirmados |
+| Qualidade do dado e diagnóstico do sensor | Previstos | Não confirmado | Não | Não confirmado | Não confirmado | Não confirmado |
+| Sensor de baixo custo instalado com o cliente | Sim | Não (rede estadual) | Não | Não | Não confirmado | Não |
+| Mapa com todos os rios e locais salvos | Previsto | Consultar recursos do site | Não | Não confirmado | Não confirmado | Não confirmado |
+| Rota que evita áreas de risco | Prevista, a partir do estado dos rios | Não | Não | Não | Não confirmado | Waze alerta área alagada informada pela Defesa Civil, em cidades parceiras (**verificado**) |
+| Pontos de apoio no mapa (telefone, capacidade e rota até o local) | Previsto, com a lista da Defesa Civil | Não confirmado | Mantém a lista dos pontos (**pesquisa**) | Não | Não confirmado | Não confirmado |
+| Gratuito para o morador | Sim | Sim | Sim | Sim | Não confirmado | Sim |
+| Vendido a municípios | Sim | Não (serviço estadual) | Não (é o comprador) | Não | Sim | Não |
 
 Funcionalidades **previstas** não existem até serem implementadas e validadas.
 
@@ -166,7 +181,8 @@ Funcionalidades **previstas** não existem até serem implementadas e validadas.
 | Tendência e tempo estimado até o nível crítico, calculados por regressão em janela de vários minutos, com aceleração da subida como fator adicional de risco | Não é exclusivo: o E-Noé usa IA; a base de dados do AcquaScan ainda é pequena para IA | Gráfico de previsão × valor real; mostrar margem de incerteza | Hipótese |
 | Métricas principais à vista e gráficos, histórico de eventos e demais métricas ao abrir um rio | Gráficos técnicos da ANA e informação dispersa em vários canais | Teste de uso com moradores | Previsto |
 | Qualidade do dado e diagnóstico do sensor (leitura impossível, sensor sem resposta, perda de comunicação) mostrados ao usuário | Concorrentes sem esse recurso confirmado | Registro de falhas e testes de bancada | Previsto |
-| Aplicativo único com mapa, locais salvos e, no futuro, rota | Informação dispersa em vários canais | Teste de uso e comparação de tarefas | Previsto |
+| Aplicativo único com mapa dos rios, locais salvos, pontos de apoio da Defesa Civil (telefone, capacidade e rota até o local) e, no futuro, rota que evita áreas de risco | Informação dispersa em vários canais | Teste de uso e comparação de tarefas | Previsto |
+| Dado contínuo do rio como gatilho para rotas e avisos, em vez de depender do lançamento manual de alertas pela Defesa Civil | Waze com bloqueios virtuais e alertas informados pelo órgão | Piloto com a Defesa Civil e comparação do tempo entre a subida do rio e o aviso | Hipótese |
 
 ---
 
@@ -181,6 +197,8 @@ Funcionalidades **previstas** não existem até serem implementadas e validadas.
 | H5 | A Defesa Civil de Petrópolis prefere uma solução de baixo custo a soluções existentes | Entrevista com o órgão | Interesse e orçamento declarados |
 | H6 | O sensor de baixo custo mantém precisão aceitável em campo, e a estação de campo continua abaixo do custo das alternativas | Comparar leituras com uma referência; cotar sensor profissional, energia solar e comunicação | Erro de nível aceitável e custo total por estação |
 | H7 | O tempo estimado por tendência é útil e conservador | Comparar previsão e valor real em eventos | Erro médio e ausência de estimativas otimistas demais |
+| H8 | O Google FloodHub não cobre os rios de Petrópolis, ou os cobre com menos detalhe que o AcquaScan | Consultar a cobertura do FloodHub e comparar com os pontos do piloto | Lista de rios cobertos e frequência dos alertas |
+| H9 | A Defesa Civil aceita usar o dado do AcquaScan como gatilho de alertas em plataformas de navegação (como o Waze) | Entrevista com o órgão | Interesse declarado e viabilidade técnica |
 
 ---
 
@@ -192,6 +210,9 @@ Funcionalidades **previstas** não existem até serem implementadas e validadas.
 - [NSC Total: radar de nível em Joinville](https://www.nsctotal.com.br/?p=2560512)
 - [Jornal de Brasília: Cemaden, 1.295 municípios, maio de 2026](https://jornaldebrasilia.com.br/noticias/brasil/cemaden-expande-rede-de-monitoramento-para-1-295-municipios/)
 - [O Imparcial: ANA lança aplicativo gratuito com dados de rios, 2019](https://oimparcial.com.br/cidades/2019/04/ana-lanca-aplicativo-gratuito-com-dados-de-rios-e-chuvas-em-todo-o-brasil/)
+- [Google: alertas e previsão de inundações no Brasil, com o SGB, 2022](https://blog.google/intl/pt-br/novidades/iniciativas/usando-inteligencia-artificial-para-alertar-e-prever-inundacoes-no-brasil/)
+- [Garagem360: Waze, São Paulo e Rio de Janeiro, alertas de enchente, 2023](https://garagem360.com.br/?p=200282)
+- [Prefeitura de Curitiba: Defesa Civil usa o Waze para bloqueios virtuais, 2024](https://www.curitiba.pr.gov.br/noticias/defesa-civil-de-curitiba-usa-app-para-fazer-bloqueios-virtuais-e-alertar-a-populacao-em-emergencias-naturais/71862)
 - [Agência Brasil: governo do Rio amplia medidas de alerta (sirenes), 2022](https://agenciabrasil.ebc.com.br/geral/noticia/2022-10/governo-do-rio-amplia-medidas-de-alerta-sobre-desastres-naturais)
 - [TeleTime: piloto de alertas por cell broadcast em 11 cidades, 2024](https://teletime.com.br/06/08/2024/governo-tera-11-cidades-em-piloto-de-sistema-de-alertas-contra-desastres/)
 - [INMET](https://portal.inmet.gov.br/), [Prefeitura de Petrópolis](https://www.petropolis.rj.gov.br/), [Tribuna de Petrópolis](https://tribunadepetropolis.com.br/), [Waze](https://www.waze.com/) e [Google Maps](https://maps.google.com/), consultados em 14/10/2026.
