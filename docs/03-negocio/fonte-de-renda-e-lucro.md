@@ -15,7 +15,7 @@ Ao longo do texto são apresentadas as fontes de renda por segmento, a lógica d
 | Fonte | Quem paga | O que paga | Forma | Papel |
 |---|---|---|---|---|
 | Implantação do conjunto de estações | Defesa Civil e Prefeitura | Sensores, instalação conjunta e calibração | Pagamento único | Principal |
-| Assinatura anual de plataforma e suporte | Defesa Civil e Prefeitura | Painel, aplicativo, API, manutenção e suporte | Recorrente | Principal |
+| Assinatura anual de plataforma e suporte | Defesa Civil e Prefeitura | Painel, aplicativo com mapa e pontos de apoio, API, manutenção e suporte | Recorrente | Principal |
 | Estação dedicada para empresas | Empresas com ativo ou operação dependente de rio | Estação instalada, com assinatura opcional | Pagamento único mais assinatura | Secundária |
 | Fomento e financiadores de impacto | Fundos, programas e empresas com ações sociais | Sensores para comunidades sem orçamento próprio | Pontual | Complementar |
 
@@ -45,9 +45,10 @@ Ao longo do texto são apresentadas as fontes de renda por segmento, a lógica d
 
 ### 3.2 Assinatura anual de plataforma e suporte (setor público)
 
-- **O que é vendido:** acesso ao painel da Defesa Civil, ao aplicativo e à API, manutenção preventiva e corretiva das estações, diagnóstico de falhas dos sensores e suporte.
+- **O que é vendido:** acesso ao painel da Defesa Civil, ao aplicativo e à API, integração e atualização da lista de pontos de apoio fornecida pelo órgão (telefone, capacidade máxima e rota até o local), manutenção preventiva e corretiva das estações, diagnóstico de falhas dos sensores e suporte.
 - **Quem paga:** o mesmo órgão contratante.
 - **Forma:** contrato anual (**hipótese**).
+- **Pontos de apoio:** a lista vem do relatório do próprio órgão e só tem valor se for mantida atualizada; combinar a atualização em contrato. O custo recorrente do provedor de mapas entra em Estrutura de Custos.
 - **Por que importa:** é a fonte recorrente. Sem ela, a receita fica concentrada na venda inicial, e o custo de manter plataforma e estações recai sobre o AcquaScan.
 - **Atenção:** a manutenção e o suporte são o que sustenta a receita mesmo que o código do projeto seja público. O valor do serviço está na instalação, na calibração, na operação e na garantia, e não apenas no software.
 
@@ -109,6 +110,7 @@ Ao longo do texto são apresentadas as fontes de renda por segmento, a lógica d
 | R4 | Empresas pagariam por estação própria | 3 a 5 conversas com empresas em margem de rio | Ao menos uma disposição de pagar, com valor |
 | R5 | A assinatura dos anos seguintes cabe na dispensa ou tem rito de contratação viável | Consulta ao setor de compras | Resposta formal |
 | R6 | Há financiadores de impacto dispostos a custear sensores | Mapeamento de programas e editais | Ao menos um programa elegível identificado |
+| R7 | A Defesa Civil valoriza o mapa com pontos de apoio e rotas a ponto de justificar a assinatura anual | Entrevista com o órgão, mostrando o mapa | Declaração do que o órgão pagaria e por quê |
 
 ---
 
